@@ -26,6 +26,10 @@ const Product = mongoose.model('product',
         type:Number,
         requires:true,
     },
+    quantity:{
+        type:Number,
+        requires:true,
+    },
     date:
     {
         type:Date,
